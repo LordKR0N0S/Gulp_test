@@ -1,13 +1,17 @@
 body {
-    color: aqua;
-    p {
-        background-color: brown;
-        &:hover {
-            text-decoration: none;
-        }
+  color: brown;
+  background-color: rgb(255, 191, 191);
+  p {
+    color: rgb(18, 38, 218);
+    &:hover {
+      text-decoration: none;
     }
-    a {
-        text-decoration: dotted;
-        color: rgb(39, 150, 48);
-    }
+  }
+  a {
+    text-decoration: dotted;
+    color: rgb(39, 150, 48);
+  }
+  img {
+    width: 700px;
+  }
 }

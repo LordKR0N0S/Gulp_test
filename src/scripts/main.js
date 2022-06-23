@@ -1,3 +1,5 @@
+'use strict';
+
 const capitalizeName = (str) => {
   const personNameArray = str.split(' ');
   let resultArray = [];
