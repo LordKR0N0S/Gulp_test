@@ -1,0 +1,13 @@
+body {
+    color: aqua;
+    p {
+        background-color: brown;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    a {
+        text-decoration: dotted;
+        color: rgb(39, 150, 48);
+    }
+}
